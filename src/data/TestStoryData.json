@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "alttag": "Thumbnail of \"Karen’s Story\" video",
+      "heading": "Karen’s Story(Original)",
+      "desc": "Original Implementation.<br/>Query params:<ul style='word-break:break-word'><li>autoplay=1</li><li>mute=0</li><li>controls=1</li><li>origin=WINDOW_ORIGIN</li><li>playsinline=1</li><li>showinfo=0</li><li>rel=0</li><li>iv_load_policy=3</li><li>modestbranding=1</li><li>showInfo=0</li><li>enablejsapi=1</li><li>widgetid=1</li><li>forigin=WINDOW_ORIGIN/test/test-patient-stories/#original</li><li>aoriginsup=1</li><li>vf=6</li></ul>",
+      "thumbnail": "/images/karen-video-cover.png",
+      "videourl": "https://www.youtube.com/embed/FzhOqdHxT0A",
+      "videocover": "/images/karen-video-cover.png",
+      "videocoveralttag": "Thumbnail of \"Karen's Story\" video ",
+      "key": "original",
+      "videotransscript": "<div class='transcript-wrapper'>Karen transcript</div>"
+    },
+    {
+      "alttag": "Thumbnail of \"Karen’s Story\" video",
+      "heading": "No Ad Video(Bretts Channel)",
+      "desc": "Original Implementation(No Ad Video).<br/>Query params:<ul style='word-break:break-word'><li>autoplay=1</li><li>mute=0</li><li>controls=1</li><li>origin=WINDOW_ORIGIN</li><li>playsinline=1</li><li>showinfo=0</li><li>rel=0</li><li>iv_load_policy=3</li><li>modestbranding=1</li><li>showInfo=0</li><li>enablejsapi=1</li><li>widgetid=5</li><li>forigin=WINDOW_ORIGIN/test/test-patient-stories/#No_Ad</li><li>aoriginsup=1</li><li>vf=6</li></ul>",
+      "thumbnail": "/images/karen-video-cover.png",
+      "videourl": "https://www.youtube.com/embed/iIfYMHf5M3w?si=atw87yuaxYRbm4PH",
+      "videocover": "/images/karen-video-cover.png",
+      "videocoveralttag": "Thumbnail of \"Karen's Story\" video ",
+      "key": "No_Ad",
+      "videotransscript": "<div class='transcript-wrapper'>Karen transcript</div>"
+    },
+    {
+      "alttag": "Thumbnail of \"Karen’s Story\" video",
+      "heading": "Karen’s Story(Watch Url)",
+      "desc": "Default React youtube player using /watch url instead of /embed url.<br/>Query params:<ul style='word-break:break-word'><li>autoplay=1</li><li>mute=0</li><li>controls=1</li><li>origin=WINDOW_ORIGIN</li><li>playsinline=1</li><li>showinfo=0</li><li>rel=0</li><li>iv_load_policy=3</li><li>modestbranding=1</li><li>showInfo=0</li><li>enablejsapi=1</li><li>widgetid=1</li><li>forigin=WINDOW_ORIGIN/test/test-patient-stories/#default_modified</li><li>aoriginsup=1</li><li>vf=6</li></ul>",
+      "thumbnail": "/images/karen-video-cover.png",
+      "videourl": "https://www.youtube.com/watch?v=FzhOqdHxT0A",
+      "videocover": "/images/karen-video-cover.png",
+      "videocoveralttag": "Thumbnail of \"Karen's Story\" video ",
+      "key": "default_modified",
+      "videotransscript": "<div class='transcript-wrapper'>Karen transcript</div>"
+    },
+    {
+      "alttag": "Thumbnail of \"Nicole’s Story\" video",
+      "heading": "Direct Iframe Video",
+      "desc": "Query params:<ul style='word-break:break-word'><li>rel=0</li><li>controls=1</li><li>autoplay=1</li><li>mute=1</li><li>showinfo=0</li><li>cc_load_policy=1</li><li>enablejsapi=1</li><li>origin=WINDOW_ORIGIN</li></ul>",
+      "thumbnail": "/images/karen-video-cover.png",
+      "videourl": "https://www.youtube.com/watch?v=FzhOqdHxT0A",
+      "videocover": "/images/karen-video-cover.png",
+      "videocoveralttag": "Thumbnail of \"Nicole's Story\" video ",
+      "key": "iframe",
+      "videotransscript": "<div class='transcript-wrapper'>Second video transcript</div>"
+    },
+    {
+      "alttag": "Thumbnail of \"Nicole’s Story\" video",
+      "heading": "Lite youtube embed library",
+      "desc": "Used LiteYouTubeEmbed library along with ads disable props{adNetwork=false}<br/>Query params:<ul style='word-break:break-word'><li>autoplay=1</li><li>state=1</li><li>rel=0</li><li>controls=1</li><li>autoplay=1</li><li>mute=1</li><li>showinfo=0</li><li>enablejsapi=1</li><li>origin=WINDOW_ORIGIN</li></ul>",
+      "thumbnail": "/images/karen-video-cover.png",
+      "videourl": "FzhOqdHxT0A",
+      "videocover": "/images/karen-video-cover.png",
+      "videocoveralttag": "Thumbnail of \"Nicole's Story\" video ",
+      "key": "liteyoutube",
+      "videotransscript": "<div class='transcript-wrapper'>Second video transcript</div>"
+    }
+  ]
+}

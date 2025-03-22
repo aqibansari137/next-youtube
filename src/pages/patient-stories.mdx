@@ -1,0 +1,25 @@
+import { PatientStoriesStyle } from "@/styles/pages/patient-stories";
+import { Row, Col } from "react-bootstrap";
+import Breadcrumb from "react-bootstrap/Breadcrumb";
+import BreadcrumbItem from "react-bootstrap/BreadcrumbItem";
+import Image from "next/image";
+import Link from "next/link";
+import PatientStoriesTest from "@/components/PatientStoriesTest/PatientStoriesTest";
+import PatientStoryData from "@/data/TestStoryData.json";
+
+export default ({}) => (
+  <>
+    <PatientStoriesStyle>
+      <h1>Patient Stories Video</h1>
+      <div className="patient-stories-wrap">
+        <Col lg={12}>
+          <Row className="m-0">
+            <div className="right-content">
+              <PatientStoriesTest PatientStoryData={PatientStoryData} />
+            </div>
+          </Row>
+        </Col>
+      </div>
+  </PatientStoriesStyle>
+  </>
+);
