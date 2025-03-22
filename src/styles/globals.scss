@@ -3,6 +3,51 @@ body{
   padding: 0;
   overflow-x: hidden;
   background-color: lightgray;
+
+  .not-found{
+        width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    background: #000;
+
+    .col-one{
+      display: flex;
+    }
+
+    h1{
+      display: inline-block;
+      margin: 0 20px 0 0;
+      padding: 0 23px 0 0;
+      font-size: 24px;
+      font-weight: 500;
+      vertical-align: top;
+      line-height: 49px;
+      border-right: 2px solid #fff;
+    }
+
+    h2{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 49px;
+      margin: 0;
+    }
+    
+    a{
+      display: block;
+      color: #fff;
+      border-bottom: 2px solid #fff;
+      text-decoration: none;
+      
+      &:hover{
+        color: lightgrey;
+        border-color: lightgrey;
+      }
+    }
+  }
 }
 
 .my-modal {
